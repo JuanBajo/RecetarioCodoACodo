@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'font-brand';
+    src: url(../Recetario/resources/Fuggles-Regular.ttf);
+}
+
+:root {
+    --color1: #383939;
+    --color2: #149c68;
+    --color3: #38c958;
+    --color4: #aee637;
+    --color5: #fffedb;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    background-color: var(--color4) !important;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+    font-family: 'font-brand';
+    font-weight: bold !important;
+    font-size: 45px !important;
+}
+
+.navbar-toggler {
+    margin-right: 10px;
+}
+
+.nav-item {
+    margin-right: 40px;
+}
+
+.foot-div {
+    background-color: var(--color4);
+    height: 50px;
+}
+
+.back-top {
+    margin-bottom: 10px;
+}
